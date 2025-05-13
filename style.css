@@ -33,7 +33,7 @@ header {
     object-fit: cover;
     border: 5px solid white;
     margin-bottom: 1rem;
-    box-shadow: 04px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* segunda part do site */
@@ -58,7 +58,7 @@ nav {
 }
 
 nav ul {
-    display:flex;
+    display: flex;
     justify-content: center;
     list-style: none;
 }
@@ -97,4 +97,20 @@ section h2::after {
     display: block;
     width: 80px;
     height: 4px;
+    background: #3498db;
+    margin: 0.5rem auto;
+    border-radius: 2px;
+}
+
+/* Sobre mim */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
 }
